@@ -4,7 +4,7 @@ This is a module for [AzerothCore](http://www.azerothcore.org)
 
 Current features:
 
--**Automatic resurrection after death.
+- **Automatic resurrection after death.**
 
 ## Requirements
 
@@ -21,3 +21,10 @@ AzerothCore v1.0.1+
 #### 3. (Optional) Edit module configuration
 
 If you need to change the module configuration, go to your server configuration folder (e.g. **etc**), copy `modules/AutoRevive.conf.dist` to `modules/AutoRevive.conf` and edit it as you prefer.
+
+## Credits
+* [Me](https://github.com/Winfidonarleyan) (author of the module)
+* [BarbzYHOOL](https://github.com/barbzyhool): best guys
+* [Talamortis](https://github.com/talamortis): almost best guy
+
+AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
