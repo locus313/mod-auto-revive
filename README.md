@@ -5,10 +5,6 @@
 #### Features:
 - Automatic resurrection after death.
 
-#### Config option (BGReward.conf.dist)
-- AutoRevive.Enable - Enable this module.
-- AutoRevive.ZoneID - Automatic resurrection in a specific area.
-
 ### This module currently requires:
 - AzerothCore v1.0.1+
 
