@@ -1,23 +1,31 @@
 # AutoRevive [![Build Status](https://travis-ci.org/Winfidonarleyan/AutoRevive-module.svg?branch=master)](https://travis-ci.org/Winfidonarleyan/AutoRevive-module)
 
-This is a module for [AzerothCore](http://www.azerothcore.org)
+### This is a module for [AzerothCore](http://www.azerothcore.org)
 
-Current features:
+#### Features:
+- Automatic resurrection after death.
 
--**Automatic resurrection after death.
+#### Config option (BGReward.conf.dist)
+- AutoRevive.Enable - Enable this module.
+- AutoRevive.ZoneID - Automatic resurrection in a specific area.
 
-## Requirements
+### This module currently requires:
+- AzerothCore v1.0.1+
 
-AutoRevive Module currently requires:
+### How to install
+1. Simply place the module under the `modules` folder of your AzerothCore source folder.
+2. Re-run cmake and launch a clean build of AzerothCore
+3. Done :)
 
-AzerothCore v1.0.1+
+### Edit module configuration (optional)
+If you need to change the module configuration, go to your server configuration folder (where your worldserver or `worldserver.exe` is), copy `AutoRevive.conf.dist` to `AutoRevive.conf` and edit that new file.
 
-## How to install
+### Usage
+- Enable this module and die :D
 
-#### 1. Simply place the module under the `modules` folder of your AzerothCore source folder.
+## Credits
+* [Winfidonarleyan](https://github.com/Winfidonarleyan): (author of the module): 
+* [BarbzYHOOL](https://github.com/barbzyhool): best guy
+* [Talamortis](https://github.com/talamortis): almost best guy
 
-#### 2. Re-run cmake and launch a clean build of AzerothCore
-
-#### 3. (Optional) Edit module configuration
-
-If you need to change the module configuration, go to your server configuration folder (e.g. **etc**), copy `modules/AutoRevive.conf.dist` to `modules/AutoRevive.conf` and edit it as you prefer.
+AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
