@@ -44,7 +44,7 @@ public:
 					player->SaveToDB(false, false);
 				}
 			}
-			
+
 			TimeCheck_AutoRevive = TimeCheck;
 		}
 		else
@@ -53,12 +53,12 @@ public:
 };
 
 class AutoRevive_WorldSC : public WorldScript
-{	
+{
 public:
-    AutoRevive_WorldSC() : WorldScript("AutoRevive_WorldSC") {}		
-	
-	void OnAfterConfigLoad(bool reload)
-	{	
+    AutoRevive_WorldSC() : WorldScript("AutoRevive_WorldSC") {}
+
+	void OnAfterConfigLoad(bool /* reload */)
+	{
 		std::string conf_path = _CONF_DIR;
 		std::string cfg_file = conf_path + "/modules/AutoRevive.conf";
 
