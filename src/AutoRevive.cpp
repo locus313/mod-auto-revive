@@ -16,8 +16,8 @@ public:
 		if (!sConfigMgr->GetBoolDefault("AutoRevive.Enable", false))
 			return;
 
-        if (AccountMgr::IsPlayerAccount(player->GetSession()->GetSecurity()))
-            return;
+        //if (AccountMgr::IsPlayerAccount(player->GetSession()->GetSecurity()))
+        //    return;
 
 		uint32 NowHealth = player->GetHealth();
 		uint32 TimeCheck = 1000;
