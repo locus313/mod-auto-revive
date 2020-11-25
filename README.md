@@ -3,19 +3,28 @@
 ### This is a module for [AzerothCore](http://www.azerothcore.org)
 - Latest build status with azerothcore: [![Build Status](https://github.com/azerothcore/mod-auto-revive/workflows/core-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/mod-auto-revive)
 
-## Description
+### Description
 
 Auto resurrection at death only for GM
 
-## Installation
+### This module currently requires:
+- AzerothCore v1.0.1+
 
-```
-1) Simply place the module under the `modules` directory of your AzerothCore source. 
-2) Re-run cmake and launch a clean build of AzerothCore.
-```
+### Installation
+1. Simply place the module under the `modules` folder of your AzerothCore source folder.
+2. Re-run cmake and launch a clean build of AzerothCore
+3. Done :)
 
-## Edit module configuration (optional)
+### Edit module configuration (optional)
 
 If you need to change the module configuration, go to your server configuration folder (where your `worldserver` or `worldserver.exe` is), copy `AutoRevive.conf.dist` to `AutoRevive.conf` and edit that new file.
 
-### This module moved to https://github.com/Winfidonarleyan/kargatum-system
+### Usage
+- Enable this module and die :D
+
+## Credits
+* [Winfidonarleyan](https://github.com/Winfidonarleyan): (author of the module): 
+* [BarbzYHOOL](https://github.com/barbzyhool): best guy
+* [Talamortis](https://github.com/talamortis): almost best guy
+
+AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
