@@ -60,11 +60,10 @@ public:
 	void OnAfterConfigLoad(bool /* reload */)
 	{
 		std::string conf_path = _CONF_DIR;
-		std::string cfg_file = conf_path + "/modules/AutoRevive.conf";
-
-#if PLATFORM == PLATFORM_WINDOWS
-		cfg_file = "modules/AutoRevive.conf";
-#endif
+		std::string cfg_file = conf_path + "/AutoRevive.conf";
+        
+        std::string cfg_def_file = cfg_file +".dist";
+        sConfigMgr->LoadMore(cfg_def_file.c_str());
 
 		if (!sConfigMgr->LoadMore(cfg_file.c_str()))
 		{
