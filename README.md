@@ -22,7 +22,7 @@ If you need to change the module configuration, go to your server configuration 
 ### Usage
 - Enable this module and die :D
 
-## Credits
+### Credits
 * [Winfidonarleyan](https://github.com/Winfidonarleyan): (author of the module): 
 * [BarbzYHOOL](https://github.com/barbzyhool): best guy
 * [Talamortis](https://github.com/talamortis): almost best guy
